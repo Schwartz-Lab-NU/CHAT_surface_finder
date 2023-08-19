@@ -1,6 +1,6 @@
 function make_flattened_tifs(folder)
 
-if isempty(folder)
+if ~nargin
     folder = uigetdir('','Select folder with images');
 end
 
